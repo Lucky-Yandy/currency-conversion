@@ -1,0 +1,249 @@
+.backgroundcolor{
+  background-color:#9932CC;
+  height:100vh;
+  display:flex;
+  align-items:center;
+}
+
+
+.currencyapp{
+  
+  background-color:white; 
+  width:50%;
+  height:80%;
+  border:1px solid gray; 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  border-radius: 10px;
+}
+
+h1{
+ margin-bottom:50px;
+
+}
+.boxfordateAndAmount{
+ 
+ width:100%;
+ height:150px;
+  display: flex; 
+  flex-direction:column; 
+   
+}
+.boxfordateAndAmount .react-datepicker__input-container input[type="text"] {
+  width:100%; /* Adjust the width as needed */
+  box-sizing: border-box; 
+  border-radius: 5px;
+  height:50px;
+}
+.boxfordateAndAmount .InputBox{
+   border-radius: 5px;
+   height:50px;
+   
+
+}
+
+.getcurrency{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+  
+  
+ 
+}
+
+
+
+
+
+.imgsize {
+  width: 50px;
+  height: 30px;
+  margin-top: 75px;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: transform 0.3s ease-in-out color 0.3s ease-in-out;; /* Add a smooth transition effect */
+}
+
+.imgsize:hover {
+  transform: scale(1.3); /* Increase the size on hover */
+   
+}
+
+
+.boxforcoverter{
+ width:100%;
+ border-radius: 5px;
+ max-width: 100%; 
+}
+
+
+
+button{
+  background-color:#9932CC;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top:10px;
+  border-radius: 7px;
+  height:50px;
+  margin-bottom:50px;
+   
+}
+
+button:hover {
+  background-color:#8B008B;
+}
+
+.resultdisplay {
+  display: flex;
+  width:100%;
+  justify-content: flex-start; 
+}
+
+.resultdisplay p {
+  width:100%;
+  margin-top: 50px; 
+}
+
+.boxforcoverter .css-13cymwt-control {
+  height: 50px; /* Adjust the height of the .css-13cymwt-control element */
+}
+
+/*0000000000000000000000000000000000000000000000000000000000000000000000000*/
+@media(max-width:768px){
+  .backgroundcolor{
+  
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+h1{
+ font-size:30px;
+ margin-bottom:50px;
+ 
+ color:#9932CC;
+ font-weight:900;
+
+}
+.currencyapp{
+  background-color:white;  
+  border:1px solid gray; 
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  border-radius: 10px; 
+  width:80%;
+  height:100%;
+  
+}
+
+.backgroundcolor{
+  background-color:lightgray;
+  height:100vh;
+  display:flex;
+  align-items:center;
+}
+
+
+
+.boxfordateAndAmount{
+ 
+ width:100%;
+ height:150px;
+  display: flex; 
+  flex-direction:column; 
+ 
+}
+.boxfordateAndAmount .react-datepicker__input-container input[type="text"] {
+  width:100%; /* Adjust the width as needed */
+  box-sizing: border-box; 
+  border-radius: 5px;
+  height:50px;
+  
+}
+.boxfordateAndAmount .InputBox{
+   border-radius: 5px;
+   height:50px;
+   
+
+}
+
+.getcurrency{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+ 
+ 
+ 
+}
+
+
+
+
+
+.imgsize{
+   width:40px;
+   height:25px;
+   margin-top:75px;
+   margin-left:20px;
+   margin-right:20px;
+}
+
+
+
+.boxforcoverter {
+  display:relative;
+  width:100%; 
+  border-radius: 5px;
+ 
+  
+ }
+
+
+
+
+button{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top:10px;
+  border-radius: 5px;
+  height:50px;
+  margin-bottom:25px;
+  
+   
+}
+
+.resultdisplay {
+  display: flex;
+  width:100%;
+  justify-content: flex-start; 
+}
+
+.resultdisplay p {
+  width:100%;
+  margin-top: 20px;
+   
+}
+
+.boxforcoverter .css-13cymwt-control {
+  height: 50px; 
+  max-width:200px;  
+  
+  /* Adjust the height of the .css-13cymwt-control element */
+}
+
+
+
+}
+
+
+
+

@@ -80,6 +80,7 @@ function App() {
 	     fetch('http://api.exchangeratesapi.io/v1/latest?access_key=70aa05c4b4b42702473a6cca6aba8a6b')
 	        .then(response => response.json())
                 .then(data =>{
+                     console.log(data);
                                   
                      if(selectedLeftSymbol in data.rates && selectedRightSymbol in data.rates && data.date === formattedDate ){ 
                        if(data.base===selectedLeftSymbol){

@@ -15,13 +15,15 @@ function App() {
           const[selectedRightOption,setSelectedRightOption]= useState('EUR');//need to use this
           const[rates,setRates]=useState(null);
           function getData(){
-             fetch(Base_url)
+            fetch("/data/data.json")
 	      .then((response) => response.json())
 	      .then((data) => {
+	                console.log(data);
 			setCurrencyOptions([data.base, ...Object.keys(data.rates)]);
 			data.rates[data.base] = 1;
 			setRates(data.rates);
-                });
+               });
+                
           }
           useEffect(getData, []);  
         

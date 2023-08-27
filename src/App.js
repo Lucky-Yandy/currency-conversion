@@ -32,7 +32,7 @@ function App() {
 	  return (
 	     <div className="backgroundcolor"> 
 		  <div className="currencyapp">
-		      <h1>Currency Converter</h1>
+		      <h2>Currency Converter</h2>
 		       <PickTheDate handleDateChange={date=>setFormattedDate(date)}/>
 		       <div className="boxfordateAndAmount">                        
 			 <p>Enter Amount</p>

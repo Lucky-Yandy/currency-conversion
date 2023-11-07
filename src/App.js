@@ -15,7 +15,7 @@ function App() {
           const[selectedRightOption,setSelectedRightOption]= useState('EUR');//need to use this
           const[rates,setRates]=useState(null);
           function getData(){
-            fetch("./components/data/data.json")
+            fetch("./data/data.json")
 	      .then((response) => response.json())
 	      .then((data) => {
 	                console.log(data);

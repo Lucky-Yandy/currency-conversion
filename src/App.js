@@ -5,7 +5,7 @@ import SelectedCurrency from './components/SelectedCurrency/SelectedCurrency.js'
 import  PickTheDate from './components/PickTheDate/PickTheDate.js';
 import './App.css';
 
-const Base_url = `http://api.exchangeratesapi.io/v1/latest?access_key=f51e62a0904587b5cef0c6c402054e44`
+const Base_url = `https://api.exchangeratesapi.io/v1/latest?access_key=f51e62a0904587b5cef0c6c402054e44`
 function App() {	 
 	  const [inputAmount, setInputAmount] = useState('1');
 	  const [result, setResult]=useState();               
@@ -15,7 +15,7 @@ function App() {
           const[selectedRightOption,setSelectedRightOption]= useState('EUR');//need to use this
           const[rates,setRates]=useState(null);
           function getData(){
-            fetch("/data/data.json")
+            fetch(Base_url)
 	      .then((response) => response.json())
 	      .then((data) => {
 	                console.log(data);

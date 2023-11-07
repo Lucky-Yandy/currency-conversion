@@ -15,18 +15,13 @@ function App() {
           const[selectedRightOption,setSelectedRightOption]= useState('EUR');//need to use this
           const[rates,setRates]=useState(null);
           function getData(){
-            fetch( Base_url)
+            fetch("./components/data/data.json")
 	      .then((response) => response.json())
 	      .then((data) => {
 	                console.log(data);
-	                if (data && data.rates && typeof data.rates === 'object') {
-			
-			setCurrencyOptions(data.base ? [data.base, ...Object.keys(data.rates)] : []);
+			setCurrencyOptions([data.base, ...Object.keys(data.rates)]);
 			data.rates[data.base] = 1;
 			setRates(data.rates);
-			} else {
-			  console.error('Error: data or data.rates is undefined or not an object');
-			}
                });
                 
           }
@@ -79,7 +74,7 @@ onChangeCurrency={e =>setSelectedLeftOption(e.target.value)}/>
 
 
 export default App;
-/*setCurrencyOptions([data.base, ...Object.keys(data.rates)]);*/
+
 
 
 

@@ -10,8 +10,8 @@
   width:600px;
   height:800px;
   background-color:white; 
-  margin-top:164px; 
-  margin-bottom:163px;
+  margin-top:50px; 
+  margin-bottom:50px;
   display:flex;
   flex-direction:column;
   justify-content:flex-start;
@@ -20,7 +20,9 @@
   
   
 }
-
+h2{
+ color:darkblue;
+}
 
 .boxfordateAndAmount{
  
@@ -121,8 +123,8 @@ button:hover {
 .currencyapp{
   gap:10px;
   font-size:10px;
-  margin-top:100px;
-  margin-bottom:100px;
+  margin-top:50px;
+  margin-bottom:50px;
    
   
 }
@@ -139,8 +141,8 @@ padding-top:20px;
 .currencyapp{
   gap:10px;
   font-size:25px;
-   margin-top:200px;
-    margin-bottom:200px;
+   margin-top:50px;
+    margin-bottom:50px;
 }
 
 
@@ -251,9 +253,8 @@ padding-top:20px;
  
 .currencyapp{
   font-size:15px;
-  margin-top:100px;
-  margin-bottom:100px;
-  
+   margin-top:50px;
+    margin-bottom:50px;
 }
 
 }

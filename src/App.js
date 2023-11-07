@@ -41,8 +41,8 @@ function App() {
 		            value={inputAmount}
 		            onChange={e =>setInputAmount(e.target.value)} 
 		            />
-		      </div>		      
-		      <div className="getcurrency" >                           
+		       </div>		      
+		       <div className="getcurrency" >                           
 			 <div className="boxforcoverter" id="boxFrom">
 			   <p> From</p>
 			    <SelectedCurrency  currencyOptions={currencyOptions}          selectedCurrency={selectedLeftOption}

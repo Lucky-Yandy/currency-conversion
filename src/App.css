@@ -1,37 +1,34 @@
 .backgroundcolor{
   background-color:DarkSlateBlue;
-  height:100vh;
+  height:100%;
+  width:100%;
   display:flex;
-  
   align-items:center;
 }
 
 .currencyapp{
-  
+  width:600px;
+  height:800px;
   background-color:white; 
-  width:40%;
-  height:80%;
-  border:1px solid gray; 
+  margin-top:164px; 
+  margin-bottom:163px;
   display:flex;
   flex-direction:column;
-  align-items:center;
   justify-content:flex-start;
   border-radius: 10px;
-  gap:30px;
-  font-size:25px;
-  color:DarkSlateBlue 
+  gap:20px;
+  
+  
 }
 
-h2{
- 
-}
+
 .boxfordateAndAmount{
  
  width:100%;
  height:150px;
   display: flex; 
   flex-direction:column; 
-  font-weight:600;
+
   
    
 }
@@ -53,9 +50,7 @@ h2{
   flex-direction:row;
   justify-content:center;
   width:100%;
-   font-weight:600;
-  
-  
+ 
  
 }
 
@@ -101,44 +96,51 @@ button:hover {
 
 .resultdisplay {
   display: flex;
-  width:100%;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   font-weight:600;
+  
   margin-top:20px;
+  
+  
   
 }
 
-.resultdisplay p {
-  width:100%;
 
-}
 
 .boxforcoverter .css-13cymwt-control {
   height: 50px; /* Adjust the height of the .css-13cymwt-control element */
 }
 
 /*0000000000000000000000000000000000000000000000000000000000000000000000000*/
-@media(max-width:768px){
-  .backgroundcolor{ 
-  height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center; 
-  background-color:DarkSlateBlue;
+@media(max-width:400px){
+ h2{
+ padding-top:20px;
+ font-size:20px;
+ color:darkblue;
+}
+.currencyapp{
+  gap:10px;
+  font-size:10px;
+  margin-top:100px;
+  margin-bottom:100px;
+   
+  
+}
+}
+@media(max-width:900px){
+ h2{
+padding-top:20px;
+ font-size:15px;
+ color:darkblue;
+ 
 }
 
 
 .currencyapp{
-  background-color:white;  
-  border:1px solid gray; 
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  border-radius: 10px; 
-  width:300px;
-  height:80%;
-  
+  gap:10px;
+  font-size:25px;
+   margin-top:200px;
+    margin-bottom:200px;
 }
 
 
@@ -239,23 +241,21 @@ button{
 }
 
 
-@media only screen
-  and (min-device-width : 768px)
-  and (max-device-width : 1024px)
-{
+@media(max-width:760px){
+h2{
+padding-top:20px;
+ font-size:15px;
+ color:darkblue;
+}
+
  
 .currencyapp{
-  background-color:white;  
-  border:1px solid gray; 
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  border-radius: 10px; 
-  width:400px;
-  height:50%;
+  font-size:15px;
+  margin-top:100px;
+  margin-bottom:100px;
   
 }
+
 }
 
 
